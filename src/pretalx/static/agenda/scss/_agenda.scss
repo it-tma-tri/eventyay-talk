@@ -1,9 +1,9 @@
 #main-container.main-schedule {
-  // min-width: min-content;
-  // margin: 0 auto;
-  // padding-left: 0;
-  // padding-right: 0;
-  // padding-bottom: 0;
+  min-width: min-content;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
   // #main-card {
   //   // min-width: 1200px; // make loading look less awkward
   //   margin: 0 auto;
@@ -337,6 +337,13 @@ article .pretalx-session .pretalx-session-info .abstract {
   //      max-width: inherit;
   //   }
   // }
+  #main-container.main-schedule {
+    min-width: unset;
+    margin: unset;
+    padding-left: unset;
+    padding-right: unset;
+    padding-bottom: unset;
+  }
 }
 
 @media print {
