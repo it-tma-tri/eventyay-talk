@@ -12,7 +12,7 @@
 {% endblock %}
 
 {% block agenda_content %}
-    <div id="fahrplan" class="{% if show_talk_list %}list{% else %}grid{% endif %}">
+    <div id="fahrplan">
         {% if schedule != schedule.event.current_schedule %}
             <div class="alert alert-warning m-3"><span>
                 {% if not schedule.version %}
