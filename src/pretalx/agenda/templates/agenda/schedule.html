@@ -40,7 +40,7 @@
             locale="{{ request.LANGUAGE_CODE }}"
             timezone="{{ request.event.timezone }}"
             {% if show_talk_list %}format="list"{% endif %}
-            style="--pretalx-clr-primary: {{ request.event.get_primary_color }}"
+            style="--pretalx-clr-primary: {{ request.event.get_primary_color }}; --track-color: #1D0808"
         ></pretalx-schedule>
         <noscript>
             <div class="alert alert-info m-4">
